@@ -1,12 +1,12 @@
-from decimal import Decimal, getcontext
+from decimal import Decimal , getcontext
 
 print("This one is for Limited Over matches.")
 print("If a team gets all out before all allocated overs, their over quota will be considered as completed.")
 
 runs_for = input("Total runs scored: ")
-overs_for = input("Total allocated overs quota to face: ")
+overs_for = input("Total overs faced: ")
 runs_against = input("Total runs conceded: ")
-overs_against = input("Total allocated overs quota to bowl: ")
+overs_against = input("Total overs bowled: ")
 
 getcontext().prec = 4
 
